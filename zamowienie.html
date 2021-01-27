@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styl9.css">
+    <title>Fabryka żelków</title>
+</head>
+<body>
+    <div class="gora"><a href="index.html"><img src="logo.png" alt="logo fabryki"></a></div>
+    <div class="gora"><a class="zamowienie" href="zamowienie.html">Zamówienie</a></div>
+    <div class="banner"><h2>Zamów nasz produkt</h2></div>
+    <div class="glowny"><h1>Oferta</h1>
+        <table>
+            <tr>
+                <td>Kształty</td>
+                <td>Kolory</td>
+            </tr>
+            <tr>
+                <td><ol>
+                    <li>miś</li>
+                    <li>żabka</li>
+                    <li>serce</li>
+                    </ol></td>
+                <td><ol>
+                    <li>czerwony</li>
+                    <li>niebieski</li>
+                    <li>żółty</li>
+                    <li>inny</li>
+                    </ol></td>
+            </tr>
+        </table>
+    </div>
+    <div class="glowny">Podaj numer kształtu: <br>
+        <input type="number" id="ksztalt"><br>
+        skomponuj swój kolor, podaj RGB: <br>
+        R: <input type="number" id="r"> G: <input type="number" id="g"> B: <input type="number" id="b"><br>
+        <button onclick="zam()">Zamów</button>
+        <p id="wypisz">Wybrany kształt: </p>
+        <button id="kolor">Wybrany kolor</button>
+    </div>
+    <div class="stopka">Autor strony: <i>Karolina Barszcz</i></div>   
+    <script src="skrypt.js"></script> 
+</body>
+</html>
